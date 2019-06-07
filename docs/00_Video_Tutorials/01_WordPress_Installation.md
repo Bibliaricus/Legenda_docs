@@ -1,0 +1,1 @@
+<iframe allowtransparency="true" title="Wistia video player" allowFullscreen frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" src="https://fast.wistia.net/embed/iframe/lzvio3wlth" width="800" height="450"></iframe>

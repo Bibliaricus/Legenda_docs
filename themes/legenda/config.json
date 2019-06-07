@@ -1,0 +1,16 @@
+{
+    "favicon": "<theme_url>img/favicon.png",
+    "css": ["<theme_url>css/theme.css"],
+    "fonts": [
+        "<theme_url>fonts/FontAwesome.otf",
+        "<theme_url>fonts/fontawesome-webfont.eot",
+        "<theme_url>fonts/fontawesome-webfont.svg",
+        "<theme_url>fonts/fontawesome-webfont.ttf",
+        "<theme_url>fonts/fontawesome-webfont.woff"
+    ],
+    "js": [
+        "<theme_url>js/jquery-1.11.3.min.js",
+        "<theme_url>js/highlight.pack.js",
+        "<theme_url>js/daux.js"
+    ]    
+}
