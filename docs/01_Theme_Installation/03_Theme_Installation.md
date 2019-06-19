@@ -9,11 +9,19 @@ The Setup Wizard is a multi-step wizard that enables you to go back and forth on
 
 ![](//olya.8theme.com/theme-docs/legenda-docs/docs/imgs/setup-wizard.png)
 
+<div class="note note-default">
+
 **Note:**
 *Theme activation and installation of required plugins are obligatory!*
 
+</div>
+
+<div class="note note-default">
+
 **Note:**
 *If you get an error: “Are you sure you want to do this?”, it usually occurs when either the PHP memory limit or max post size for WordPress has been reached. See [Legenda Theme Requirements](/Theme_Installation/Legenda_Theme_Requirements). The easiest workaround for this is to install Legenda through FTP (see below). Alternatively, you'll need to change several settings, either on WordPress, or on your web host.*
+
+</div>
 
 ![](//olya.8theme.com/theme-docs/legenda-docs/docs/imgs/are-you-sure.png)
 

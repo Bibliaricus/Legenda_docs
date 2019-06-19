@@ -1,7 +1,8 @@
 {
     "favicon": "<theme_url>img/favicon.png",
-    "css": ["<theme_url>css/theme.css"],
+    "css": ["<theme_url>css/main.css"],
     "fonts": [
+        "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900",
         "<theme_url>fonts/FontAwesome.otf",
         "<theme_url>fonts/fontawesome-webfont.eot",
         "<theme_url>fonts/fontawesome-webfont.svg",
@@ -12,5 +13,14 @@
         "<theme_url>js/jquery-1.11.3.min.js",
         "<theme_url>js/highlight.pack.js",
         "<theme_url>js/daux.js"
-    ]    
+    ],
+    "variants": {
+        "legenda": {
+            "favicon": "<theme_url>img/favicon-legenda.png",
+            "css": ["<theme_url>css/legenda.css"]
+        },
+        "royal": {
+            "css": ["<theme_url>css/royal.css"]
+        }
+    }
 }

@@ -17,9 +17,8 @@
 </section>
 
 <section class="category-list">
-<div class="Row">                        
 <div class="Row__quarter category-wrap">
-<a class="category" id="category-49" href="#">
+<a class="category" id="category-49" href="Video_Tutorials/index.html">
 
 ### Video tutorials
 
@@ -30,7 +29,7 @@
 </div>
 <!-- /category -->
 <div class="Row__quarter category-wrap">
-<a class="category" id="category-8" href="#">
+<a class="category" id="category-8" href="Theme_Installation/Legenda_Theme_Requirements.html">
 
 ### Theme Installation
 
@@ -41,7 +40,7 @@
 </div>
 <!-- /category --> 
 <div class="Row__quarter category-wrap">
-<a class="category" id="category-15" href="#">
+<a class="category" id="category-15" href="Menu_Set_Up/General_Information.html">
 
 ### Menu Set Up
 
@@ -52,7 +51,7 @@
 </div>
 <!-- /category --> 
 <div class="Row__quarter category-wrap">
-<a class="category" id="category-18" href="#">
+<a class="category" id="category-18" href="Theme_Translation/Base_Theme_Translation.html">
 
 ### Theme Translation
 
@@ -62,11 +61,9 @@
 </a>
 </div>
 <!-- /category --> 
-</div>
 <!-- /Row --> 
-<div class="Row">                        
 <div class="Row__quarter category-wrap">
-<a class="category" id="category-16" href="#">
+<a class="category" id="category-16" href="Slider_Set_Up/Revolutions_Slider_New_Slider.html">
 
 ### Slider Set Up
 
@@ -77,7 +74,7 @@
 </div>
 <!-- /category -->
 <div class="Row__quarter category-wrap">
-<a class="category" id="category-54" href="#">
+<a class="category" id="category-54" href="Widgets_and_Static_Blocks/Legenda_Shortcodes.html">
 
 ### Widgets/Static Blocks
 
@@ -88,7 +85,7 @@
 </div>
 <!-- /category --> 
 <div class="Row__quarter category-wrap">
-<a class="category" id="category-55" href="#">
+<a class="category" id="category-55" href="Theme_Update.html">
 
 ### Theme Update
 
@@ -99,7 +96,7 @@
 </div>
 <!-- /category --> 
 <div class="Row__quarter category-wrap">
-<a class="category" id="category-51" href="#">
+<a class="category" id="category-51" href="WooCommerce/General_Information.html">
 
 ### WooCommerce
 
@@ -109,11 +106,9 @@
 </a>
 </div>
 <!-- /category --> 
-</div>                     
 <!-- /Row --> 
-<div class="Row">                        
 <div class="Row__quarter category-wrap">
-<a class="category" id="category-9" href="#">
+<a class="category" id="category-9" href="Plugins/General_Info.html">
 
 ### Plugins
 
@@ -124,7 +119,7 @@
 </div>
 <!-- /category -->
 <div class="Row__quarter category-wrap">
-<a class="category" id="category-56" href="#">
+<a class="category" id="category-56" href="Troubleshooting/How_to_renew_support_period.html">
 
 ### Troubleshooting
 
@@ -135,18 +130,7 @@
 </div>
 <!-- /category --> 
 <div class="Row__quarter category-wrap">
-<a class="category" id="category-57" href="#">
-
-### Additional Customisation
-
-<p class="article-count">                                        
-    <span class="notranslate">1</span> articles
-</p>
-</a>
-</div>
-<!-- /category --> 
-<div class="Row__quarter category-wrap">
-<a class="category" id="category-50" href="#">
+<a class="category" id="category-50" href="Support.html">
 
 ### Support
 
@@ -156,10 +140,11 @@
 </a>
 </div>
 <!-- /category --> 
-</div> 
 
 </section>
-<p class="text-center">© 8theme 2016</p>
+<footer>
+  <div class="text-center">© <a href="https://www.8theme.com/" target="_blank">8theme</a> 2019</div>
+</footer>
 
 <!-- Google Code -->
 <script type="text/javascript">
