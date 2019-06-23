@@ -57,15 +57,7 @@ Version: 1.0
   body {
     margin: 0;
     padding: 0;
-  }
-
-  article,
-  aside,
-  footer,
-  nav,
-  section {
-    display: block;
-  }   
+  }    
 
   img {
     border-style: none;
@@ -374,8 +366,10 @@ Version: 1.0
   }
 
   .Navbar {
-      box-shadow: 0 1px 5px rgba(0, 0, 0, .25);
+      position: relative;
       margin-bottom: 0;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, .25);
+      z-index: 1;
   }
 
   .Navbar .Container {
@@ -491,7 +485,7 @@ Version: 1.0
       position: relative;
       display: flex;
       justify-content: center;
-      margin: 3rem 0 0;
+      margin: 2rem 0 0;
   }
 
   .Search__field {
@@ -921,7 +915,7 @@ Version: 1.0
   }
 
   .HomepageContent {
-      background-color: #ffffff;
+      background-color: #fafafa;
       padding: 40px 0;
   }
 
@@ -950,9 +944,9 @@ Version: 1.0
   #docsSearch {
     border: 0;
     text-align: center;
-    padding: 75px 10px 65px 10px;
-    margin-top: 60px;
-    margin-bottom: 30px;
+    padding: 80px 10px 85px 10px;
+    margin-top: 30px;
+    margin-bottom: 70px;
   }
 
   #docsSearch::before {
@@ -960,26 +954,28 @@ Version: 1.0
     position: absolute;
     background-color: #fff;
     width: 100%;
-    height: 100%;
-    z-index: -1;
+    height: 420px;
+    z-index: 0;
     top: 0;
     left: 0;
   }
 
   #docsSearch h1 {
+      position: relative;
       line-height: 38px;
       color: #1a1a1a;
       font-size: 36px;
       font-weight: 700;
-      margin-bottom: 14px;
+      margin-bottom: 1.2rem;
   }
 
   #docsSearch .caption {
+      position: relative;
       color: #999;
       font-size: 22px;
       font-weight: 300;
       display: block;
-      margin-bottom: 19px;
+      margin-bottom: 1rem;
       line-height: 30px;
   }
   
@@ -1053,7 +1049,7 @@ Version: 1.0
     margin-bottom: 40px;
   }
 
-  .category-list::before {
+  /* .category-list::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -1061,7 +1057,7 @@ Version: 1.0
     background-color: #fafafa;
     top: 115%;
     left: 0;
-  }
+  } */
 
   .category-list .category-wrap {
     display: flex;
@@ -1149,7 +1145,7 @@ Version: 1.0
   }
 
   .doc_content {
-      background-color: #fff;
+      background-color: #fafafa;
       padding: 10px;
       border-radius: 10px;
   }
@@ -1390,6 +1386,10 @@ Version: 1.0
         width: 50%;
     }
 
+    #docsSearch {
+        padding: 10px 10px 85px 10px;
+    }
+
     #docsSearch #searchBar {
         width: 570px;
     }
@@ -1414,6 +1414,10 @@ Version: 1.0
     #docsSearch #searchBar {
         width: 370px;
     }
+
+    .HomepageContent {
+        padding: 0;
+    }
   }
 
   @media only screen and (max-width:375px) {
@@ -1427,7 +1431,7 @@ Version: 1.0
     }
 
     #docsSearch {
-        padding: 50px 0;
+        padding: 10px 0;
     }
 
     #docsSearch h1 {
