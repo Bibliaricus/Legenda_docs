@@ -12,7 +12,7 @@
         "theme": "documentation-legenda",
         "breadcrumbs": true,        
         "breadcrumb_separator": "Chevrons",
-        "toggle_code": true,
+        "toggle_code": false,
         "date_modified": true,
         "float": false,
         "inherit_index": true
