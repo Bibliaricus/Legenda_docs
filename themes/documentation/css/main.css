@@ -1047,6 +1047,7 @@ Version: 1.0
     flex-wrap: wrap;
     justify-content: flex-start;
     margin-bottom: 20px;
+    padding: 0 10px;
   }
 
   /* .category-list::before {
@@ -1390,7 +1391,7 @@ Version: 1.0
     }
 
     #docsSearch {
-        padding: 10px 10px 85px 10px;
+        padding: 10px 10px 45px 10px;
     }
 
     #docsSearch #searchBar {
@@ -1412,6 +1413,7 @@ Version: 1.0
     .category-list .category-wrap {
         width: 45%;
         padding: 0;
+        margin: 10px auto;
     }
 
     #docsSearch #searchBar {
