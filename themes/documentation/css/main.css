@@ -1150,6 +1150,10 @@ Version: 1.0
       border-radius: 10px;
   }
 
+  .Columns .doc_content {
+      background-color: #fff;
+  }
+
   .Collapsible__content,
   .s-content pre code:after,
   .s-content pre code:before {
