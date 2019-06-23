@@ -392,12 +392,17 @@ Version: 1.0
       padding: 0;
   }
 
+  .Collapsible__content .Nav {
+      margin-left: 20px;
+  }
+
   .Nav__arrow {
       display: inline-block;
       position: relative;
       width: 16px;
-      margin-right: 10px;
-      font-size: 20px;
+      margin-left: 10px;
+      font-size: 16px;
+      order: 1;
   }
 
   .Nav__arrow:before {
@@ -407,10 +412,10 @@ Version: 1.0
       margin: -.25em 0 0 -.4em;
       left: 50%;
       top: 50%;
-      width: .5em;
-      height: .5em;
-      border-right: .15em solid #3f4657;
-      border-top: .15em solid #3f4657;
+      width: .45em;
+      height: .45em;
+      border-right: .15em solid #C6C6C6;
+      border-top: .15em solid #C6C6C6;
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       transform: rotate(45deg);
@@ -430,12 +435,10 @@ Version: 1.0
       font-weight: 700;
       text-shadow: none;
       text-transform: uppercase;
-      display: flex;
-      align-items: center;
   }
 
-  .Nav__item a:hover {
-      color: #3f4657;
+  .Nav .Nav__item a:hover {
+      color: #222;
       text-shadow: none;
   }
 
@@ -454,6 +457,22 @@ Version: 1.0
       font-size: 16px;
   }
 
+  .Nav .Nav__item a,
+  .Nav .Nav .Nav__item a {
+      font-size: 15px;
+      color: #858585;
+      padding: 6px 15px 6px 0;
+      line-height: 20px;
+      font-weight: 400;
+      margin-left: 0;
+      text-transform: none;
+  }
+
+  .Nav .Nav__item--open a {
+      font-weight: 700;
+      color: #222;
+  }
+
   .Nav .Nav .Nav__item a:hover {
       opacity: 1;
   }
@@ -461,13 +480,7 @@ Version: 1.0
   .Nav .Nav .Nav__item--active a,
   .Nav__item a {
       color: #3f4657;
-  }
-
-  .Nav__item a:hover,
-  .Nav__item--active>a,
-  .Nav__item--open>a {
-      background-color: #c5c5cb;
-  }
+  }  
 
   .Nav__item--open>.Nav {
       display: block;
