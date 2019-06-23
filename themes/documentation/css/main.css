@@ -336,6 +336,10 @@ Version: 1.0
     margin-bottom: 30px;
   }
 
+  strong {
+      color: #222;
+  }
+
 /* 4. General settings */
   /* # Navbar and navigation */
   .Button {
