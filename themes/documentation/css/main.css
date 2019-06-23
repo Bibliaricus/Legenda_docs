@@ -1148,7 +1148,6 @@ Version: 1.0
 /* 6. Content page */
   /* # Columns settings */
   .Columns__left {
-      background-color: #f7f7f7;
       display: flex;
       flex-wrap: wrap;
   }
@@ -1160,7 +1159,6 @@ Version: 1.0
 
   .doc_content {
       background-color: #fafafa;
-      padding: 10px;
       border-radius: 10px;
   }
 
@@ -1381,10 +1379,10 @@ Version: 1.0
   }
 
   .Columns__right__content {
-      padding: 0 20px 20px;
+      padding: 20px;
       min-height: 100%;
       width: 100%;
-      background-color: #fff;    
+      background-color: #fff;
   }
 }
 
@@ -1410,6 +1408,10 @@ Version: 1.0
 
     #docsSearch #searchBar {
         width: 570px;
+    }
+
+    .doc_content {
+        padding: 10px;
     }
 
     .HomepageFooter {
