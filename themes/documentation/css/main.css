@@ -319,6 +319,7 @@ Version: 1.0
   /* # Other tags */
   p {
       margin: 0 0 1em;
+      word-break: break-word;
   }
 
   hr {
@@ -340,7 +341,13 @@ Version: 1.0
   }
 
   strong {
-      color: #222;
+    color: #222;
+  }
+
+  iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
   }
 
 /* 4. General settings */
