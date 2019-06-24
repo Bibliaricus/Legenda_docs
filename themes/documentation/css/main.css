@@ -324,8 +324,11 @@ Version: 1.0
   hr {
       clear: both;
       margin: 1em 0;
-      border: 0;
-      border-top: 1px solid #ddd;
+      border-top: 2px solid #e2e2e2;
+      border-bottom: 1px solid #fff;
+      border-left: 0;
+      border-right: 0;
+
   }
 
   q {
