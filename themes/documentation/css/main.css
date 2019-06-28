@@ -9,6 +9,7 @@ Version: 1.0
 
 /*-----------------------------------------------------------------
 [Table of contents] 
+0. Variables
 1. Content of external CSS-files
   # normalize.css
 2. Body, fonts and typography
@@ -43,6 +44,11 @@ Version: 1.0
 
   
 -----------------------------------------------------------------*/
+
+/* 0. Variables */
+:root {
+    --main-color: #48a5f3;    
+}
 
 /* 1. Content of external CSS-files */
   /* # normalize.css */
@@ -367,7 +373,7 @@ Version: 1.0
 
   .Brand,
   .Navbar {
-      background-color: #d64444;
+      background-color: var(--main-color);
   }
 
   .Brand {
@@ -585,7 +591,7 @@ Version: 1.0
   }
   
   .Pager a {
-      color: #d50000;
+      color: var(--main-color);
   }
   
   .Pager:after,
@@ -735,7 +741,7 @@ Version: 1.0
   /* # General styles of content */
   .s-content a {
       text-decoration: none;
-      color: #d50000;
+      color: var(--main-color);
   }
 
   .s-content .index a::before {
@@ -1057,7 +1063,7 @@ Version: 1.0
   }
 
   #docsSearch #searchBar button:hover svg {
-      fill: #d64444;
+      fill: var(--main-color);
   }
 
   #docsSearch #searchBar button:focus {
@@ -1113,7 +1119,7 @@ Version: 1.0
   }
 
   .category-list .category:hover:before {
-    color: #d64444;
+    color: var(--main-color);
   }
 
   .category-list .category h3 {
@@ -1132,7 +1138,7 @@ Version: 1.0
   .category-list .category .article-count {
     font-weight: 400;
     line-height: 20px;
-    color: #d64444;
+    color: var(--main-color);
     font-size: 13px;
     margin: 0;
   }
@@ -1146,12 +1152,12 @@ Version: 1.0
   }
 
   footer a {
-      color: #d34746;
+      color: var(--main-color);
   }
 
   footer a:hover {
       text-decoration: underline;
-      color: #d50000;
+      color: var(--main-color);
   }
 
   footer div {
@@ -1189,7 +1195,7 @@ Version: 1.0
   .Columns__left .Collapsible__trigger {
       margin: 0;
       padding: 7px 20px;
-      background-color: #d64444;
+      background-color: var(--main-color);
       border: 0;
       float: right;
       background-image: none;
